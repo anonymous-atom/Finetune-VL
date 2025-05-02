@@ -90,7 +90,6 @@ You can modify these parameters in `scripts/finetune_lora.sh` to suit your needs
 The repository includes several other useful scripts:
 - `finetune_lora_vision.sh`: For vision-specific fine-tuning
 - `finetune.sh`: For full model fine-tuning
-- `finetune_video.sh`: For video fine-tuning
 - `merge_lora.sh`: For merging LoRA weights with the base model
 
 ## Environment Details
