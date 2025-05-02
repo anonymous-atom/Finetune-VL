@@ -23,7 +23,7 @@ deepspeed src/train/train_sft.py \
     --deepspeed scripts/zero3.json \
     --model_id $MODEL_NAME \
     --data_path scripts/cleaner.json \
-    --image_folder scripts/Images \
+    --image_folder  \
     --remove_unused_columns False \
     --freeze_vision_tower False \
     --freeze_llm True \
